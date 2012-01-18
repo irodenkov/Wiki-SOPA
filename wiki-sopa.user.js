@@ -6,6 +6,6 @@
 
 
 $(document).ready(function() {
-		$("div#mw-sopaOverlay").remove();
-		$("body>div").show();
+		window.$("div#mw-sopaOverlay").remove();
+		window.$("body>div").show();
 });
