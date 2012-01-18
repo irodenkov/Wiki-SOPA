@@ -5,7 +5,7 @@
 // ==/UserScript==
 
 
-$(document).ready(function() {
+window.jQuery(document).ready(function() {
 		window.jQuery("div#mw-sopaOverlay").remove();
 		window.jQuery("body>div").show();
 });
